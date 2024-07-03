@@ -1,0 +1,1 @@
+{"version":3,"file":"foo.js","names":["hello","exports","msg","concat"],"sources":["../src/foo.ts"],"sourcesContent":["export const hello = (msg: string) => `hello ${msg}`;\r\n"],"mappings":";;;;;;AAAO,IAAMA,KAAK,GAAAC,OAAA,CAAAD,KAAA,GAAG,SAARA,KAAKA,CAAIE,GAAW;EAAA,gBAAAC,MAAA,CAAcD,GAAG;AAAA,CAAE","ignoreList":[]}

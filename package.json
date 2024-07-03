@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "tsc:init":"tsc --init",
-    "build": "babel src --out-dir lib --extensions .ts,.js,.tsx,.jsx,.cjs,.mjs"
+    "dev": "babel-node ./src/index",
+    "tsc:init": "tsc --init",
+    "build": "babel src --out-dir lib --extensions .ts,.js,.tsx,.jsx,.cjs,.mjs",
+    "build:map": "babel src --out-dir lib --extensions .ts,.js,.tsx,.jsx,.cjs,.mjs -s"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,11 @@
     "@babel/core": "^7.24.7",
     "@babel/preset-env": "^7.24.7",
     "@babel/preset-typescript": "^7.24.7",
+    "core-js": "^3.37.1",
+    "regenerator-runtime": "^0.14.1",
     "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@babel/node": "^7.24.7"
   }
 }

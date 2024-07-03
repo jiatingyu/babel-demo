@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","names":["_foo","require","console","log","hello"],"sources":["../src/index.ts"],"sourcesContent":["import { hello } from \"./foo\";\r\n\r\nconsole.log(hello(\"foo\"));\r\n"],"mappings":";;AAAA,IAAAA,IAAA,GAAAC,OAAA;AAEAC,OAAO,CAACC,GAAG,CAAC,IAAAC,UAAK,EAAC,KAAK,CAAC,CAAC","ignoreList":[]}
